@@ -1,0 +1,195 @@
+body
+{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1,h2,h3
+{
+  font-family: 'Montserrat', sans-serif;
+}
+h1
+{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: left;
+}
+
+h2
+{
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+h3
+{
+  font-size: 22px;
+}
+
+p
+{
+  color: #8f8f8f;
+  font-family: "Montserrat-light";
+  font-weight: 900;
+}
+
+/* colored and whites section */
+
+.colored-section
+{
+background-color: #ff4c68;
+color: #fff;
+}
+
+.white-section
+{
+background-color: #fff;
+}
+
+          /* title section */
+
+#title .container-fluid
+{
+  padding: 3% 15% 7%;
+}
+
+/* applies to all container-fluid classes */
+
+.container-fluid
+{
+padding: 7% 15%;
+}
+
+/* navigation bar */
+
+.navbar
+{
+  padding-bottom: 4.5rem;
+}
+.navbar-brand
+{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item
+{
+  padding: 0 20px;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  font-family: "Montserrat-Light";
+  font-weight: 900;
+}
+     /* download-button */
+
+.download-button
+{
+  margin: 50px 20px 0 0;
+}
+
+    /* iphone-image */
+
+.iphone-img
+{
+  width: 300px;
+  transform: rotate(24deg);
+  margin: 30px 60px;
+  position: absolute;  /* in order to use z-index */
+  right: 18%;
+}
+
+           /* media query breakpoint */
+
+@media (max-width: 1200px)
+{
+.iphone-img
+{
+position: static;
+transform: rotate(0);
+}
+
+#title
+{
+text-align: center;
+}
+}
+        /* features-section */
+
+#features
+{
+  position: relative; /* in order to use z-index */
+  z-index: 1;
+}
+
+.feature-box
+{
+  padding: 5%;
+}
+
+.icon
+{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+         /* testimonials */
+
+#testimonials
+{
+  background-color: #ef8172;
+}
+
+.testimonial-img
+{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press
+{
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo
+{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+                /* pricing section */
+
+#pricing
+{
+  padding: 120px;
+}
+
+.pricing-col
+{
+  padding: 4% 2%;
+}
+
+                        /* download-section */
+
+.download-section-h3
+{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+                    /* footer-section */
+
+.footer-icons
+{
+  margin: 20px 10px;
+}
